@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Poppins:ital,wght@0,600;0,700;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=IM+Fell+Double+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*====================Inicio====================*/
+
+
+.Section-1-bg{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.icon-menu img{
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-top: 15px;
+
+}
+
+#barra-menu{
+    background: #180127;
+    height: 100vh;
+    width: 0px;
+    transition: 0.3s all;
+}
+
+#barra-menu ul li{
+    list-style: none;
+    padding: 15px;
+}
+
+#barra-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    width: 100%;
+  
+}
+
+#barra-menu ul li a:hover{
+    border: solid 1px #C229AA;
+    padding: 8px;
+    border-radius: 15px;
+    background: #7601c4;
+
+}
+
+.C-icon{
+
+    margin-top: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    overflow: hidden;
+   
+}
+
+.C-icon span{
+    color: #FBF7F7;
+    
+}
+
+.C-icon span:hover{
+    transition: 0.2s;
+    transform: 0.5;
+    color: #C229AA;
+}
+
+
+.main-title{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 20%;
+   flex-wrap: wrap;
+   
+ 
+}
+
+.main-title h1{
+    font-size: 70px;
+    color: #fff;
+    margin-top: 15%;
+    font-family: "Poppins";
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+
+}
+
+.main-title h2{
+    color: #FE002D;
+    font-size: 50px;
+    font-family: "Hanuman";
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main-title h5{
+    color: #fff;
+    font-size: 15px;
+    font-family: "Hanuman";
+    letter-spacing: 2px;
+    font-weight: 200;
+    
+
+}
+
+.main-title button{
+    width: 15%;
+    margin-top: 80px;
+    padding: 8px 5px;
+    font-size: 20px;
+    background-color: #FE002D;
+    border-radius: 50px;
+    color: #FBF7F7;
+    font-family:"Inter" ;
+    cursor: pointer;
+    transition-duration: .9s;
+   
+}
+
+.main-title button:hover{
+    border: solid 1px #fff;
+    transition: 0.7s;
+    background: transparent;
+    
+  
+}
+
+.Numeros{
+    display: flex;
+    margin-top: 35px;
+    color: #fff;
+    gap: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.title h3{
+    font-size: 35px;
+    margin-top: 15px;
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+.title p{
+    font-family: "Inter";
+    font-weight: normal;
+}
+
+.title:hover{
+    transition: 1.2;
+    transform: scale(1.1);
+   
+}
+
+@media only screen and (max-width: 414px)  {
+
+    /*====================Inicio====================*/
+
+    .main-title h1{
+        font-size: 40px;
+        margin-top: 75%;
+        margin-right: 15%;
+        
+    }
+
+    .main-title h2{
+        font-size: 25px;
+        margin-right: 15%;
+    }
+    
+    .main-title button{
+        width: 150px;
+    }
+
+    .Numeros{
+        margin-right: 25%;
+        margin-top: 50%;
+    }
+
+
+}
+
+/*================Sobre-mim================*/
+
+
+.C-sobre{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    
+
+}
+
+.image img{
+    width: 400px;
+    height: auto;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+
+.Sobre-mim h1{
+
+     text-align: center;
+    font-size: 55px;
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+.Sobre-mim h4{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "Inria Sans";
+    font-weight: bold;
+}
+
+.Sobre-mim span{
+    color: #FD0BF3;
+}
+
+.Sobre-mim p{
+    margin-top: 25px;
+    font-family: "Inria Sans";
+
+}
+
+.Sobre-mim button{
+    background-color: #EF0453;
+    margin-left: 35%;
+    margin-top: 30px;
+    padding: 10px 50px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    transition-duration: .9s;
+
+}
+
+.Sobre-mim button:hover{
+    color: #EF0453;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+    
+}
+
+@media only screen and (max-width: 414px){
+
+    /*================Sobre-mim ================*/
+
+    .image img{
+        width: 350px;
+        height: auto;
+    }
+
+
+
+    .Sobre-mim p{
+        font-size: 12px;
+        width: 500px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .Sobre-mim button{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+
+}
+
+/*================Serviços================*/
+
+.Container{
+    width: 100%;
+    background-color: #F3EEEE;
+    padding: 50px;
+    
+}
+
+
+
+
+.Container h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: "Inria Sans";
+    font-weight: bold;
+    padding-top: 12%;
+}
+
+
+
+
+.Container p{
+    text-align: center;
+    font-family: "Inria Sans";
+    color: #685B5B;
+    margin-top: 25px;
+    
+} 
+
+
+.C-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.Card{
+    background-color: #FFFBFB;
+    padding: 50px;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    
+}
+
+.Card img{
+    width: 75px;
+    height: auto;
+}
+
+.C-card-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.Card h3{
+    font-size: 20px;
+    font-family: "Inria Sans";
+    font-weight: 700;
+}
+.Card h4{
+    font-family: "Inria Sans";
+    font-weight: lighter;
+    color: #BEB7B7;
+    margin-top: 15px;
+}
+
+.Card:hover{
+    transform: scale(1.1);
+    transition-duration: .9s;
+}
+
+
+@media only screen and (max-width: 414px){
+
+    /*===============Serviços================*/
+
+    .Card{
+        margin-top: 35px;
+    }
+
+    .C-card-2{
+        margin-top: 35px;
+    }
+
+
+
+}
+/*===============Projetos================*/
+
+.C-projetos{
+    width: 100%;
+    background-color: #fff;
+    padding: 85px;
+}
+
+.C-projetos h1{
+    text-align: center;
+    font-size: 65px;
+    font-family: "Inria Sans";
+    font-weight: bold;
+    padding-top: 14%;
+}
+
+.C-projetos p{
+     text-align: center;
+     font-family: "Inria Sans";
+     color: #685B5B;
+     font-weight: lighter;
+     margin-top: 8px;
+}
+
+.img-projetos{
+   display: flex;
+   justify-content: center;
+   gap: 70px;
+   margin-top: 150px;
+   flex-wrap: wrap;
+}
+
+.img-projetos img{
+    width: 450px;
+    height: auto;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    border-radius: 10px;
+}
+
+.img-2 img{
+    width: 450px;
+    height: auto;
+    margin-left: 32%;
+    margin-top: 35px;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    border-radius: 10px;
+} 
+
+
+.C-projetos img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    transition-duration: 0.9s;
+    border: solid 2px #180127;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 414px){
+
+    
+    .img-projetos img{
+        width: 300px;
+        height: auto;
+       
+    }
+
+    .img-2 img{
+        width: 300px;
+        height: auto;
+        margin-left: -28px;
+        margin-top: 50px;
+       
+    }
+}
+
+/*===============Rodapé================*/
+
+.C-rodapé{
+    width: 100%;
+    background-color: #383535;
+    padding: 50px;
+}
+
+.C-rodapé h1{
+    text-align: center;
+    color: #fff;
+    font-family: "Inria Sans";
+    font-weight: lighter;
+}
+
+.C-rodapé form input:first-child{
+   display: inline-block;
+   width: 100%;
+   padding: 14px 50px 14px 15px;
+   border-radius: 30px;
+   outline: none;
+   border: none;
+   margin-top: 25px;
+}
+
+.C-rodapé form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #C229AA;
+    color: #fff;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    right: 100px;
+    margin-top: 28px;
+    width: 150px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.C-rodapé form input:last-child:hover{
+    transform: scale(1.1);
+    transition-duration: 0.9s;
+}
+
+@media only screen and (max-width: 414px){
+
+    .C-rodapé form input:last-child{
+        width: 100px;
+        
+    }
+
+}
